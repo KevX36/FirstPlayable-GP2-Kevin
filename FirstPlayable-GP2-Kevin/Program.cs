@@ -8,10 +8,11 @@ namespace FirstPlayable_GP2_Kevin
 {
     internal class Program
     {
+        public Map map = new Map();
         static void Main(string[] args)
         {
 
-
+            
 
 
 
