@@ -18,54 +18,71 @@ namespace FirstPlayable_GP2_Kevin
             _health = new Health(HP);
         }
 
-        public void Move(Player player, Map map)
+        public void MoveDirection(Player player, Map map)
         {
-            if(_xPos< player._xPos)
+            bool XFirst;
+            Random XOrY = new Random();
+            int priority = XOrY.Next(1, 3);
+            if(priority == 1)
             {
-                if(player._xPos == _xPos-- && player._yPos == _yPos)
+                XFirst = true;
+            }
+            else
+            {
+                XFirst = false;
+            }
+            if (XFirst)
+            {
+                if (_xPos < player._xPos)
                 {
-                    player._health.TakeDamage(1);
+                    Move(player, map, _xPos - 1, _yPos);
                 }
-                else if (map.CheakSpace(_xPos--,_yPos))
+                else if (_xPos > player._xPos)
                 {
-                    _xPos--;
+                    Move(player, map, _xPos + 1, _yPos);
+                }
+                else if (_yPos < player._yPos)
+                {
+                    Move(player, map, _xPos, _yPos - 1);
+                }
+                else if (_yPos > player._yPos)
+                {
+                    Move(player, map, _xPos, _yPos + 1);
                 }
             }
-            else if (_xPos > player._xPos)
+            else
             {
-                if (player._xPos == _xPos++ && player._yPos == _yPos)
+                if (_yPos < player._yPos)
                 {
-                    player._health.TakeDamage(1);
+                    Move(player, map, _xPos, _yPos - 1);
                 }
-                else if (map.CheakSpace(_xPos++, _yPos))
+                else if (_yPos > player._yPos)
                 {
-                    _xPos++;
+                    Move(player, map, _xPos, _yPos + 1);
                 }
-            }
-            else if (_yPos < player._yPos)
-            {
-                if (player._xPos == _xPos && player._yPos == _yPos--)
+                else if (_xPos < player._xPos)
                 {
-                    player._health.TakeDamage(1);
+                    Move(player, map, _xPos - 1, _yPos);
                 }
-                else if (map.CheakSpace(_xPos, _yPos--))
+                else if (_xPos > player._xPos)
                 {
-                    _yPos--;
+                    Move(player, map, _xPos + 1, _yPos);
                 }
-            }
-            else if (_yPos > player._yPos)
-            {
-                if (player._xPos == _xPos && player._yPos == _yPos++)
-                {
-                    player._health.TakeDamage(1);
-                }
-                else if (map.CheakSpace(_xPos, _yPos++))
-                {
-                    _yPos++;
-                }
+
             }
         }
-
+        private void Move(Player player,Map map, int newX, int newY)
+        {
+            if (player._xPos == newX && player._yPos == newY)
+            {
+                player._health.TakeDamage(1);
+            }
+            else if (map.CheakSpace(newX, newY))
+            {
+                _xPos = newX;
+                _yPos = newY;
+            }
+        }
         public void DrawEnemy()
         {
             Console.BackgroundColor = ConsoleColor.Red;

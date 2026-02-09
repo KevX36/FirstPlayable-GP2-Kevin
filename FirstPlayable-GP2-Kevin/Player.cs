@@ -17,5 +17,54 @@ namespace FirstPlayable_GP2_Kevin
             _yPos = y;
             _health = new Health(HP);
         }
+
+        public void MoveInput(List<Enemy> enemies, Map map)
+        {
+            ConsoleKeyInfo moveInput = Console.ReadKey();
+            
+            if(moveInput.Key == ConsoleKey.W)
+            {
+                Move(enemies, map, _xPos, _yPos + 1);
+            }
+            else if (moveInput.Key == ConsoleKey.S)
+            {
+                Move(enemies, map, _xPos, _yPos - 1);
+            }
+            else if (moveInput.Key == ConsoleKey.A)
+            {
+                Move(enemies, map, _xPos - 1, _yPos);
+            }
+            else if (moveInput.Key == ConsoleKey.D)
+            {
+                Move(enemies, map, _xPos + 1, _yPos);
+            }
+
+
+        }
+        private void Move(List<Enemy> enemies, Map map,int newX,int newY)
+        {
+            bool didNotAttack = true;
+            for (int i = 0; i < enemies.Count; i++)
+            {
+                if (enemies[i]._xPos == newX && enemies[i]._yPos == newY)
+                {
+                    enemies[i]._health.TakeDamage(1);
+                    didNotAttack = false;
+                }
+            }
+
+            if (didNotAttack)
+            {
+                if (map.CheakSpace(newX, newY))
+                {
+                    _xPos = newX;
+                    _yPos = newY;
+                }
+            }
+            
+        }
+
+
+
     }
 }

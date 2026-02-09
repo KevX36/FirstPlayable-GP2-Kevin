@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\nscc_work\\FirstPlayable-GP2-Kevin\\",
+  "WorkspaceRootPath": "C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|c:\\nscc_work\\firstplayable-gp2-kevin\\firstplayable-gp2-kevin\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|solutionrelative:firstplayable-gp2-kevin\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|c:\\nscc_work\\firstplayable-gp2-kevin\\firstplayable-gp2-kevin\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|solutionrelative:firstplayable-gp2-kevin\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|solutionrelative:FirstPlayable-GP2-Kevin\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|solutionrelative:FirstPlayable-GP2-Kevin\\Health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|c:\\nscc_work\\firstplayable-gp2-kevin\\firstplayable-gp2-kevin\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\firstplayable-gp2-kevin\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|solutionrelative:firstplayable-gp2-kevin\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Map.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\firstplayable-gp2-kevin\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|solutionrelative:firstplayable-gp2-kevin\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|solutionrelative:FirstPlayable-GP2-Kevin\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|c:\\kevin\u0027s unity projects\\firstplayable-gp2-kevin\\firstplayable-gp2-kevin\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|solutionrelative:firstplayable-gp2-kevin\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|solutionrelative:FirstPlayable-GP2-Kevin\\Health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Map.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{23E776D7-C029-4E1D-A63D-23DA975FA79E}|FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin.csproj|solutionrelative:FirstPlayable-GP2-Kevin\\Map.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -34,41 +34,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Player.cs",
+              "DocumentMoniker": "C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Player.cs",
               "RelativeDocumentMoniker": "FirstPlayable-GP2-Kevin\\Player.cs",
-              "ToolTip": "C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Player.cs",
+              "ToolTip": "C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Player.cs",
               "RelativeToolTip": "FirstPlayable-GP2-Kevin\\Player.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-07T00:25:56.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Enemy.cs",
-              "DocumentMoniker": "C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Enemy.cs",
+              "DocumentMoniker": "C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Enemy.cs",
               "RelativeDocumentMoniker": "FirstPlayable-GP2-Kevin\\Enemy.cs",
-              "ToolTip": "C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Enemy.cs",
+              "ToolTip": "C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Enemy.cs",
               "RelativeToolTip": "FirstPlayable-GP2-Kevin\\Enemy.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCwAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEkAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-06T16:27:20.256Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Health.cs",
-              "DocumentMoniker": "C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Health.cs",
+              "DocumentMoniker": "C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Health.cs",
               "RelativeDocumentMoniker": "FirstPlayable-GP2-Kevin\\Health.cs",
-              "ToolTip": "C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Health.cs",
+              "ToolTip": "C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Health.cs",
               "RelativeToolTip": "FirstPlayable-GP2-Kevin\\Health.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -79,24 +79,23 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Map.txt",
-              "DocumentMoniker": "C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Map.txt",
+              "DocumentMoniker": "C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Map.txt",
               "RelativeDocumentMoniker": "FirstPlayable-GP2-Kevin\\Map.txt",
-              "ToolTip": "C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Map.txt",
+              "ToolTip": "C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Map.txt",
               "RelativeToolTip": "FirstPlayable-GP2-Kevin\\Map.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-02-04T12:40:39.786Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-04T12:40:39.786Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Map.cs",
-              "DocumentMoniker": "C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Map.cs",
+              "DocumentMoniker": "C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Map.cs",
               "RelativeDocumentMoniker": "FirstPlayable-GP2-Kevin\\Map.cs",
-              "ToolTip": "C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Map.cs",
+              "ToolTip": "C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Map.cs",
               "RelativeToolTip": "FirstPlayable-GP2-Kevin\\Map.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-04T12:41:36.041Z",
               "EditorCaption": ""
@@ -105,9 +104,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Program.cs",
+              "DocumentMoniker": "C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Program.cs",
               "RelativeDocumentMoniker": "FirstPlayable-GP2-Kevin\\Program.cs",
-              "ToolTip": "C:\\nscc_work\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Program.cs",
+              "ToolTip": "C:\\Kevin\u0027s unity projects\\FirstPlayable-GP2-Kevin\\FirstPlayable-GP2-Kevin\\Program.cs",
               "RelativeToolTip": "FirstPlayable-GP2-Kevin\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
