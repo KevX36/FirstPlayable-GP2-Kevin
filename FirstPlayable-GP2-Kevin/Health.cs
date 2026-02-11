@@ -8,7 +8,7 @@ namespace FirstPlayable_GP2_Kevin
 {
     internal class Health
     {
-        protected int _health;
+        public int _health { get; private set; }
         protected int _maxHealth;
         protected bool _isAlive = true;
         
@@ -20,9 +20,10 @@ namespace FirstPlayable_GP2_Kevin
         public void TakeDamage(int DMG)
         {
             _health -= DMG;
-            if(_health < 0)
+            if(_health <= 0)
             {
                 _isAlive = false;
+                _health = 0;
             }
         }
         public bool CheakIfAlive()

@@ -10,30 +10,32 @@ namespace FirstPlayable_GP2_Kevin
 {
     internal class Map
     {
-        private string[] _map = File.ReadAllLines(@"Map.txt");
+        private string[] _map = File.ReadAllLines(@"C:\Kevin's unity projects\FirstPlayable-GP2-Kevin\FirstPlayable-GP2-Kevin\Map.txt");
         //you must run this before any other map methods
         
         public void DrawMap()
         {
 
-            for (int i = 0; i < _map.Length; i++)
+            for (int i = 0; i < _map.Length-1; i++)
             {
+                
                 for(int j = 0; j < _map[i].Length; i++)
                 {
-                    Console.SetCursorPosition(j + 5, i + 5);
-                    if (_map[i][j] == '`')
+                    
+                    Console.SetCursorPosition(i + 5, j + 5);
+                    if (_map[j][i] == '`')
                     {
                         Console.BackgroundColor = ConsoleColor.Green;
                     }
-                    else if (_map[i][j] == '~')
+                    else if (_map[j][i] == '~')
                     {
                         Console.BackgroundColor = ConsoleColor.Blue;
                     }
-                    else if (_map[i][j] == '^')
+                    else if (_map[j][i] == '^')
                     {
                         Console.BackgroundColor = ConsoleColor.Gray;
                     }
-                    Console.Write(_map[i][j]);
+                    Console.Write(_map[j][i]);
                     Console.BackgroundColor = ConsoleColor.Black;
                 }
             }

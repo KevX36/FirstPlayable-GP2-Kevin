@@ -64,7 +64,13 @@ namespace FirstPlayable_GP2_Kevin
             
         }
 
-
+        public void DrawPlayer()
+        {
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.SetCursorPosition(_xPos + 5, _yPos + 5);
+            Console.Write("*");
+            Console.BackgroundColor = ConsoleColor.Black;
+        }
 
     }
 }
