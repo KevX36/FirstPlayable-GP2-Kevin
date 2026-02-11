@@ -14,9 +14,9 @@ namespace FirstPlayable_GP2_Kevin
         static int Score = 0;
         static void Main(string[] args)
         {
-            enemies.Add(new Enemy(5, 20, 20));
-            enemies.Add(new Enemy(5, 0, 20));
-            enemies.Add(new Enemy(5, 20, 0));
+            enemies.Add(new Enemy(5, 19, 19));
+            enemies.Add(new Enemy(5, 0, 19));
+            enemies.Add(new Enemy(5, 19, 0));
             Player player = new Player(100, 0, 0);
             while (player._health.CheakIfAlive())
             {
@@ -41,9 +41,9 @@ namespace FirstPlayable_GP2_Kevin
                 }
                 if (!enemies.Any())
                 {
-                    enemies.Add(new Enemy(5, 20, 20));
-                    enemies.Add(new Enemy(5, 0, 20));
-                    enemies.Add(new Enemy(5, 20, 0));
+                    enemies.Add(new Enemy(5, 19, 19));
+                    enemies.Add(new Enemy(5, 0, 19));
+                    enemies.Add(new Enemy(5, 19, 0));
                     enemies.Add(new Enemy(5, 0, 0));
                 }
 

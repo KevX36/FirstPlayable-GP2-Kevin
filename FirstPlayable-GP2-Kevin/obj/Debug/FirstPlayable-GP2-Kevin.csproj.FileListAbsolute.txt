@@ -13,3 +13,4 @@ C:\Kevin's unity projects\FirstPlayable-GP2-Kevin\FirstPlayable-GP2-Kevin\obj\De
 C:\Kevin's unity projects\FirstPlayable-GP2-Kevin\FirstPlayable-GP2-Kevin\obj\Debug\FirstPlayable-GP2-Kevin.csproj.CoreCompileInputs.cache
 C:\Kevin's unity projects\FirstPlayable-GP2-Kevin\FirstPlayable-GP2-Kevin\obj\Debug\FirstPlayable-GP2-Kevin.exe
 C:\Kevin's unity projects\FirstPlayable-GP2-Kevin\FirstPlayable-GP2-Kevin\obj\Debug\FirstPlayable-GP2-Kevin.pdb
+C:\nscc_work\FirstPlayable-GP2-Kevin\FirstPlayable-GP2-Kevin\obj\Debug\FirstPlayable-GP2-Kevin.exe.config

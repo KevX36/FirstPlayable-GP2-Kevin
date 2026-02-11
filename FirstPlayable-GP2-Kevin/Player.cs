@@ -24,11 +24,11 @@ namespace FirstPlayable_GP2_Kevin
             
             if(moveInput.Key == ConsoleKey.W)
             {
-                Move(enemies, map, _xPos, _yPos + 1);
+                Move(enemies, map, _xPos, _yPos - 1);
             }
             else if (moveInput.Key == ConsoleKey.S)
             {
-                Move(enemies, map, _xPos, _yPos - 1);
+                Move(enemies, map, _xPos, _yPos + 1);
             }
             else if (moveInput.Key == ConsoleKey.A)
             {
@@ -60,6 +60,7 @@ namespace FirstPlayable_GP2_Kevin
                     _xPos = newX;
                     _yPos = newY;
                 }
+                
             }
             
         }

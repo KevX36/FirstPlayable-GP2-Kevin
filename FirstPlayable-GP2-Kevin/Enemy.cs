@@ -35,44 +35,45 @@ namespace FirstPlayable_GP2_Kevin
             {
                 if (_xPos < player._xPos)
                 {
-                    Move(player, map, _xPos - 1, _yPos);
+                    Move(player, map, _xPos + 1, _yPos);
                 }
                 else if (_xPos > player._xPos)
                 {
-                    Move(player, map, _xPos + 1, _yPos);
+                    Move(player, map, _xPos - 1, _yPos);
                 }
                 else if (_yPos < player._yPos)
                 {
-                    Move(player, map, _xPos, _yPos - 1);
+                    Move(player, map, _xPos, _yPos + 1);
                 }
                 else if (_yPos > player._yPos)
                 {
-                    Move(player, map, _xPos, _yPos + 1);
+                    Move(player, map, _xPos, _yPos + -1);
                 }
             }
             else
             {
                 if (_yPos < player._yPos)
                 {
-                    Move(player, map, _xPos, _yPos - 1);
+                    Move(player, map, _xPos, _yPos + 1);
                 }
                 else if (_yPos > player._yPos)
                 {
-                    Move(player, map, _xPos, _yPos + 1);
+                    Move(player, map, _xPos, _yPos - 1);
                 }
                 else if (_xPos < player._xPos)
                 {
-                    Move(player, map, _xPos - 1, _yPos);
+                    Move(player, map, _xPos + 1, _yPos);
                 }
                 else if (_xPos > player._xPos)
                 {
-                    Move(player, map, _xPos + 1, _yPos);
+                    Move(player, map, _xPos - 1, _yPos);
                 }
 
             }
         }
         private void Move(Player player,Map map, int newX, int newY)
         {
+            
             if (player._xPos == newX && player._yPos == newY)
             {
                 player._health.TakeDamage(1);

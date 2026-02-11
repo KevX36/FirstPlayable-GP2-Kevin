@@ -10,16 +10,16 @@ namespace FirstPlayable_GP2_Kevin
 {
     internal class Map
     {
-        private string[] _map = File.ReadAllLines(@"C:\Kevin's unity projects\FirstPlayable-GP2-Kevin\FirstPlayable-GP2-Kevin\Map.txt");
+        private string[] _map = File.ReadAllLines(@"C:\nscc_work\FirstPlayable-GP2-Kevin\FirstPlayable-GP2-Kevin\Map.txt");
         //you must run this before any other map methods
         
         public void DrawMap()
         {
 
-            for (int i = 0; i < _map.Length-1; i++)
+            for (int i = 0; i < _map.Length; i++)
             {
                 
-                for(int j = 0; j < _map[i].Length; i++)
+                for (int j = 0; j < _map.Length; j++)
                 {
                     
                     Console.SetCursorPosition(i + 5, j + 5);
@@ -57,7 +57,7 @@ namespace FirstPlayable_GP2_Kevin
             {
                 return false;
             }
-            else if (_map[y].Length < x)
+            else if (x >= _map[y].Length)
             {
                 return false;
             }
