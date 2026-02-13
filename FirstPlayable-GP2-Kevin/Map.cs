@@ -10,7 +10,8 @@ namespace FirstPlayable_GP2_Kevin
 {
     internal class Map
     {
-        private string[] _map = File.ReadAllLines(@"Map.txt");
+        
+        private string[] _map = File.ReadAllLines(@"MapText.txt");
         //you must run this before any other map methods
         
         public void DrawMap()

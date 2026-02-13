@@ -5,3 +5,4 @@ C:\nscc_work\FirstPlayable-GP2-Kevin\FirstPlayable-GP2-Kevin\obj\Release\FirstPl
 C:\nscc_work\FirstPlayable-GP2-Kevin\FirstPlayable-GP2-Kevin\obj\Release\FirstPlayable-GP2-Kevin.csproj.CoreCompileInputs.cache
 C:\nscc_work\FirstPlayable-GP2-Kevin\FirstPlayable-GP2-Kevin\obj\Release\FirstPlayable-GP2-Kevin.exe
 C:\nscc_work\FirstPlayable-GP2-Kevin\FirstPlayable-GP2-Kevin\obj\Release\FirstPlayable-GP2-Kevin.pdb
+C:\nscc_work\FirstPlayable-GP2-Kevin\FirstPlayable-GP2-Kevin\obj\Release\FirstPlayable-GP2-Kevin.exe.config
